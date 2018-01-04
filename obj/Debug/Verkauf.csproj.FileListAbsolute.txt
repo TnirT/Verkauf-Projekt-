@@ -1,1 +1,11 @@
 D:\SWE\Git-Projekte\Verkauf\bin\Debug\Verkauf.exe.config
+D:\4. Klasse\SWE\Programme\Projekt_Verkauf\bin\Debug\Verkauf.exe.config
+D:\4. Klasse\SWE\Programme\Projekt_Verkauf\obj\Debug\Verkauf.Form1.resources
+D:\4. Klasse\SWE\Programme\Projekt_Verkauf\obj\Debug\Verkauf.Form2.resources
+D:\4. Klasse\SWE\Programme\Projekt_Verkauf\obj\Debug\Verkauf.Properties.Resources.resources
+D:\4. Klasse\SWE\Programme\Projekt_Verkauf\obj\Debug\Verkauf.csproj.GenerateResource.Cache
+D:\4. Klasse\SWE\Programme\Projekt_Verkauf\bin\Debug\Verkauf.exe
+D:\4. Klasse\SWE\Programme\Projekt_Verkauf\bin\Debug\Verkauf.pdb
+D:\4. Klasse\SWE\Programme\Projekt_Verkauf\obj\Debug\Verkauf.exe
+D:\4. Klasse\SWE\Programme\Projekt_Verkauf\obj\Debug\Verkauf.pdb
+D:\4. Klasse\SWE\Programme\Projekt_Verkauf\obj\Debug\Verkauf.csprojResolveAssemblyReference.cache
