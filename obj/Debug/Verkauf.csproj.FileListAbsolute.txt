@@ -9,3 +9,13 @@ D:\4. Klasse\SWE\Programme\Projekt_Verkauf\bin\Debug\Verkauf.pdb
 D:\4. Klasse\SWE\Programme\Projekt_Verkauf\obj\Debug\Verkauf.exe
 D:\4. Klasse\SWE\Programme\Projekt_Verkauf\obj\Debug\Verkauf.pdb
 D:\4. Klasse\SWE\Programme\Projekt_Verkauf\obj\Debug\Verkauf.csprojResolveAssemblyReference.cache
+D:\SWE\Git-Projekte\Varkauf1.0\bin\Debug\Verkauf.exe.config
+D:\SWE\Git-Projekte\Varkauf1.0\bin\Debug\Verkauf.exe
+D:\SWE\Git-Projekte\Varkauf1.0\bin\Debug\Verkauf.pdb
+D:\SWE\Git-Projekte\Varkauf1.0\obj\Debug\Verkauf.csprojResolveAssemblyReference.cache
+D:\SWE\Git-Projekte\Varkauf1.0\obj\Debug\Verkauf.Form1.resources
+D:\SWE\Git-Projekte\Varkauf1.0\obj\Debug\Verkauf.Form2.resources
+D:\SWE\Git-Projekte\Varkauf1.0\obj\Debug\Verkauf.Properties.Resources.resources
+D:\SWE\Git-Projekte\Varkauf1.0\obj\Debug\Verkauf.csproj.GenerateResource.Cache
+D:\SWE\Git-Projekte\Varkauf1.0\obj\Debug\Verkauf.exe
+D:\SWE\Git-Projekte\Varkauf1.0\obj\Debug\Verkauf.pdb
