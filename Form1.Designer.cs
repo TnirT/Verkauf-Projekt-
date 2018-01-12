@@ -33,12 +33,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnAnmeldung = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.btnAnmeldung = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -86,14 +86,24 @@
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(256, 126);
+            this.panel1.Size = new System.Drawing.Size(295, 126);
             this.panel1.TabIndex = 5;
+            // 
+            // btnAnmeldung
+            // 
+            this.btnAnmeldung.Location = new System.Drawing.Point(6, 97);
+            this.btnAnmeldung.Name = "btnAnmeldung";
+            this.btnAnmeldung.Size = new System.Drawing.Size(219, 26);
+            this.btnAnmeldung.TabIndex = 5;
+            this.btnAnmeldung.Text = "Anmeldung";
+            this.btnAnmeldung.UseVisualStyleBackColor = true;
+            this.btnAnmeldung.Click += new System.EventHandler(this.btnAnmeldung_Click);
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.label4);
             this.panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel2.Location = new System.Drawing.Point(274, 12);
+            this.panel2.Location = new System.Drawing.Point(12, 156);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(295, 41);
             this.panel2.TabIndex = 6;
@@ -113,20 +123,11 @@
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel3.Location = new System.Drawing.Point(274, 59);
+            this.panel3.Location = new System.Drawing.Point(12, 144);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(295, 53);
             this.panel3.TabIndex = 7;
             this.panel3.Visible = false;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(9, 13);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(211, 18);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Anmeldung fehlgeschlagen!";
             // 
             // label6
             // 
@@ -137,21 +138,20 @@
             this.label6.TabIndex = 1;
             this.label6.Text = "Bitte versuchen Sie es noch einmal!";
             // 
-            // btnAnmeldung
+            // label5
             // 
-            this.btnAnmeldung.Location = new System.Drawing.Point(6, 97);
-            this.btnAnmeldung.Name = "btnAnmeldung";
-            this.btnAnmeldung.Size = new System.Drawing.Size(219, 26);
-            this.btnAnmeldung.TabIndex = 5;
-            this.btnAnmeldung.Text = "Anmeldung";
-            this.btnAnmeldung.UseVisualStyleBackColor = true;
-            this.btnAnmeldung.Click += new System.EventHandler(this.btnAnmeldung_Click);
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(9, 13);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(211, 18);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Anmeldung fehlgeschlagen!";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(581, 163);
+            this.ClientSize = new System.Drawing.Size(335, 247);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
