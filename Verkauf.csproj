@@ -73,6 +73,7 @@
     </Compile>
     <Compile Include="Kassa.cs" />
     <Compile Include="Lager.cs" />
+    <Compile Include="Produkt.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

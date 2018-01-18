@@ -8,5 +8,13 @@ namespace Verkauf
 {
     class Kassa
     {
+        public Kassa(long kid, long kassastand)
+        {
+            KID = kid;
+            Kassastand = kassastand;
+        }
+
+        public long KID { get; set; }
+        public long Kassastand { get; set; }
     }
 }

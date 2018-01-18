@@ -97,7 +97,7 @@
             this.btnAnmeldung.TabIndex = 5;
             this.btnAnmeldung.Text = "Anmeldung";
             this.btnAnmeldung.UseVisualStyleBackColor = true;
-            this.btnAnmeldung.Click += new System.EventHandler(this.btnAnmeldung_Click);
+         
             // 
             // panel2
             // 
@@ -157,6 +157,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Kassa-Login";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

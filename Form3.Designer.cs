@@ -114,6 +114,7 @@
             // 
             this.txtProduktID.Location = new System.Drawing.Point(115, 40);
             this.txtProduktID.Name = "txtProduktID";
+            this.txtProduktID.ReadOnly = true;
             this.txtProduktID.Size = new System.Drawing.Size(100, 20);
             this.txtProduktID.TabIndex = 5;
             // 

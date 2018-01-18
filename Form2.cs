@@ -22,6 +22,7 @@ namespace Verkauf
 
         private DatabaseAccess da;
         private OleDbDataReader dr;
+        private List<Produkt> Produktlist;
 
         OleDbCommand cmd;
         string sql;
@@ -30,7 +31,17 @@ namespace Verkauf
         private void Form2_Load(object sender, EventArgs e)
         {
             da = new DatabaseAccess();
-            readDatenintoList();
+            //readDatenintoList();
+        }
+
+        internal void readProduktintoList()
+        {
+            Produktlist = new List<Produkt>();
+            dr = da.readData("Select * from viewProdukt");
+            while (dr.Read())
+            {
+              //  Produktlist.Add(new Produkt(Convert.ToInt64(dr[0].ToString()), (dr[1].ToString()),  (dr[3].ToString())), dr[2].ToString());
+            }
         }
     }
 }

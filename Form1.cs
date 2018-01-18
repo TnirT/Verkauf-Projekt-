@@ -17,7 +17,7 @@ namespace Verkauf
             InitializeComponent();
         }
 
-        private void anmelden()
+      /*  private void anmeldenAdmin()
         {
             if (txtBenutzer.Text == "admin" && txtPasswort.Text == "123")
             {
@@ -39,10 +39,39 @@ namespace Verkauf
             }
         }
 
-        private void btnAnmeldung_Click(object sender, EventArgs e)
+        private void anmeldenMitarbeiter()
         {
-            anmelden();
+            if (txtBenutzer.Text == "mitarbeiter" && txtPasswort.Text == "1")
+            {
+                panel1.Visible = false;
+                panel2.Visible = true;
+
+                var form4 = new Form4();
+                form4.ShowDialog();
+
+                this.Close();
+            }
+
+            else
+            {
+                txtBenutzer.Focus();
+                panel3.Visible = true;
+                txtBenutzer.Text = "";
+                txtPasswort.Text = "";
+            }
         }
 
+
+        private void btnAnmeldung_Click(object sender, EventArgs e)
+        {
+            anmeldenAdmin();
+            anmeldenMitarbeiter();
+        }
+        */
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
