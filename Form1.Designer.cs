@@ -97,7 +97,7 @@
             this.btnAnmeldung.TabIndex = 5;
             this.btnAnmeldung.Text = "Anmeldung";
             this.btnAnmeldung.UseVisualStyleBackColor = true;
-         
+            this.btnAnmeldung.Click += new System.EventHandler(this.btnAnmeldung_Click);
             // 
             // panel2
             // 

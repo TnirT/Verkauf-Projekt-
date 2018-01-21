@@ -21,3 +21,5 @@ D:\SWE\Git-Projekte\Varkauf1.0\obj\Debug\Verkauf.exe
 D:\SWE\Git-Projekte\Varkauf1.0\obj\Debug\Verkauf.pdb
 D:\4. Klasse\SWE\Programme\Projekt_Verkauf\obj\Debug\Verkauf.Form3.resources
 D:\4. Klasse\SWE\Programme\Projekt_Verkauf\obj\Debug\Verkauf.Form4.resources
+D:\SWE\Git-Projekte\Varkauf1.0\obj\Debug\Verkauf.Form3.resources
+D:\SWE\Git-Projekte\Varkauf1.0\obj\Debug\Verkauf.Form4.resources

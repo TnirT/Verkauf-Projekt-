@@ -8,11 +8,11 @@ using System.Data;
 
 namespace Verkauf
 {
-    class DatabaseAccess
+    public partial class DatabaseAccess
     {
-        private string cn;
-        private OleDbConnection conn;
-        private OleDbCommand cmd;
+        public string cn;
+        public OleDbConnection conn;
+        public OleDbCommand cmd;
 
         public DatabaseAccess()
         {
@@ -20,6 +20,7 @@ namespace Verkauf
             // cn = "Provider = Microsoft.JET.OLEDB.4.0; Data Source = Internetradio.mdb";
             conn = new OleDbConnection(cn);
             conn.Open();
+            
         }
 
         public OleDbDataReader readData(string sql)
