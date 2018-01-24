@@ -34,14 +34,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnAnmeldung = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtBenutzer
@@ -55,6 +48,7 @@
             // 
             this.txtPasswort.Location = new System.Drawing.Point(125, 67);
             this.txtPasswort.Name = "txtPasswort";
+            this.txtPasswort.PasswordChar = '*';
             this.txtPasswort.Size = new System.Drawing.Size(100, 24);
             this.txtPasswort.TabIndex = 1;
             // 
@@ -95,75 +89,21 @@
             this.btnAnmeldung.Name = "btnAnmeldung";
             this.btnAnmeldung.Size = new System.Drawing.Size(219, 26);
             this.btnAnmeldung.TabIndex = 5;
-            this.btnAnmeldung.Text = "Anmeldung";
+            this.btnAnmeldung.Text = "LogIn";
             this.btnAnmeldung.UseVisualStyleBackColor = true;
-            this.btnAnmeldung.Click += new System.EventHandler(this.btnAnmeldung_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel2.Location = new System.Drawing.Point(12, 156);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(295, 41);
-            this.panel2.TabIndex = 6;
-            this.panel2.Visible = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 4);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(179, 18);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Anmeldung erfolgreich!";
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.label6);
-            this.panel3.Controls.Add(this.label5);
-            this.panel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel3.Location = new System.Drawing.Point(12, 144);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(295, 53);
-            this.panel3.TabIndex = 7;
-            this.panel3.Visible = false;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(9, 33);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(276, 18);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Bitte versuchen Sie es noch einmal!";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(9, 13);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(211, 18);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Anmeldung fehlgeschlagen!";
+            this.btnAnmeldung.Click += new System.EventHandler(this.btnAnmeldung_Click_1);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(335, 247);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
+            this.ClientSize = new System.Drawing.Size(335, 154);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Kassa-Login";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -176,11 +116,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnAnmeldung;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
     }
 }
 

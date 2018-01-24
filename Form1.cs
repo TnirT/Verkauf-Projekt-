@@ -26,53 +26,52 @@ namespace Verkauf
         OleDbCommand cmd;
         OleDbConnection conn;
         
+          //private void anmeldenAdmin()
+          //{
+          //    if (txtBenutzer.Text == "admin" && txtPasswort.Text == "123")
+          //    {
+          //        panel1.Visible = false;
+          //        panel2.Visible = true;
 
-        /*  private void anmeldenAdmin()
-          {
-              if (txtBenutzer.Text == "admin" && txtPasswort.Text == "123")
-              {
-                  panel1.Visible = false;
-                  panel2.Visible = true;
+          //        var form2 = new Form2();
+          //        form2.ShowDialog();
 
-                  var form2 = new Form2();
-                  form2.ShowDialog();
+          //        this.Close();
+          //    }
 
-                  this.Close();
-              }
+          //    else
+          //    {
+          //        txtBenutzer.Focus();
+          //        panel3.Visible = true;
+          //        txtBenutzer.Text = "";
+          //        txtPasswort.Text = "";
+          //    }
+          //}
 
-              else
-              {
-                  txtBenutzer.Focus();
-                  panel3.Visible = true;
-                  txtBenutzer.Text = "";
-                  txtPasswort.Text = "";
-              }
-          }
+          //private void anmeldenMitarbeiter()
+          //{
+          //    if (txtBenutzer.Text == "mitarbeiter" && txtPasswort.Text == "1")
+          //    {
+          //        panel1.Visible = false;
+          //        panel2.Visible = true;
 
-          private void anmeldenMitarbeiter()
-          {
-              if (txtBenutzer.Text == "mitarbeiter" && txtPasswort.Text == "1")
-              {
-                  panel1.Visible = false;
-                  panel2.Visible = true;
+          //        var form4 = new Form4();
+          //        form4.ShowDialog();
 
-                  var form4 = new Form4();
-                  form4.ShowDialog();
+          //        this.Close();
+          //    }
 
-                  this.Close();
-              }
-
-              else
-              {
-                  txtBenutzer.Focus();
-                  panel3.Visible = true;
-                  txtBenutzer.Text = "";
-                  txtPasswort.Text = "";
-              }
-          }
+          //    else
+          //    {
+          //        txtBenutzer.Focus();
+          //        panel3.Visible = true;
+          //        txtBenutzer.Text = "";
+          //        txtPasswort.Text = "";
+          //    }
+          //}
 
 
-          private void btnAnmeldung_Click(object sender, EventArgs e)
+     /*     private void btnAnmeldung_Click(object sender, EventArgs e)
           {
               anmeldenAdmin();
               anmeldenMitarbeiter();
@@ -84,50 +83,114 @@ namespace Verkauf
             da = new DatabaseAccess();
         }
 
-        private void btnAnmeldung_Click(object sender, EventArgs e)
-        {
-           // int z = 0;
+       //private void btnAnmeldung_Click(object sender, EventArgs e)
+       // {
+       //    // int z = 0;
             
           
                 
-                cmd = new OleDbCommand();
-                cmd.Connection = da.conn;
-              //  cmd = new OleDbCommand("Select count(*) from Mitarbeiter where Benutzername = '" + txtBenutzer.Text + "'and Passwort =' " + txtPasswort.Text + "'", conn);
-                cmd.CommandText = "SELECT * FROM Mitarbeiter where  Benutzername= '" + txtBenutzer.Text + "'";
-                cmd.CommandText = "SELECT * FROM Mitarbeiter where  Passwort= '" + txtPasswort.Text + "'";
-                dr = cmd.ExecuteReader();
-                if(dr.Read())
-                {
-                    MessageBox.Show("Benutzername und Passwort sind korrekt");
-                }
-              //  cmd.Connection = conn;
+       //         cmd = new OleDbCommand();
+       //         cmd.Connection = da.conn;
+       //       // cmd = new OleDbCommand("Select count(*) from Mitarbeiter where Benutzername = '" + txtBenutzer.Text + "'and Passwort =' " + txtPasswort.Text + "'", conn);
+       //         cmd.CommandText = "SELECT * FROM Mitarbeiter where  Benutzername= '" + txtBenutzer.Text + "'";
+       //         cmd.CommandText = "SELECT * FROM Mitarbeiter where  Passwort= '" + txtPasswort.Text + "'";
+       //         dr = cmd.ExecuteReader();
 
-                /*if(conn.State == ConnectionState.Closed)
-                {
-                    conn.Open();
-                    z = (int)cmd.ExecuteScalar();
-                }
-                conn.Close();
-               */
-               // if (z == 1)
-                //{
-                   // MessageBox.Show("Benutzername und Passwort sind korrekt");
-                    //this.Hide();
-                    //Form2 f2 = new Form2();
-                //}
-                //else if(z == 2)
-                //{
-                  //  this.Hide();
-                    //Form3 f3 = new Form3();
-                //}
-                else
-                {
-                    MessageBox.Show("nicht korrekt");
-                }
+       //     if (dr.Read())
+       //         {
+       //             MessageBox.Show("Benutzername und Passwort sind korrekt");
+                    
+       //         }
+       //        //cmd.Connection = conn;
+
+       //      //  if(conn.State == ConnectionState.Closed)
+       //        // {
+       //         //    conn.Open();
+       //           // z = (int)cmd.ExecuteScalar();
+       //         //}
+       //      //   conn.Close();
+               
+       //         //if (z == 1)
+       //         //{
+       //         //    MessageBox.Show("Benutzername und Passwort sind korrekt");
+       //         //    this.Hide();
+       //         //    Form2 f2 = new Form2();
+       //         //}
+       //         //else if(z == 2)
+       //         //{
+       //           //  this.Hide();
+       //             //Form3 f3 = new Form3();
+       //         //}
+       //       else
+       //         {
+       //             MessageBox.Show("nicht korrekt");
+       //         }
                 
+          
             
-
            
+       // }
+
+        private void btnAnmeldung_Click_1(object sender, EventArgs e)
+        {
+            // int z = 0;
+
+
+
+            cmd = new OleDbCommand();
+            cmd.Connection = da.conn;
+            // cmd = new OleDbCommand("Select count(*) from Mitarbeiter where Benutzername = '" + txtBenutzer.Text + "'and Passwort =' " + txtPasswort.Text + "'", conn);
+            cmd.CommandText = "SELECT * FROM Mitarbeiter where  Benutzername= '" + txtBenutzer.Text + "'";
+            cmd.CommandText = "SELECT * FROM Mitarbeiter where  Passwort= '" + txtPasswort.Text + "'";
+            dr = cmd.ExecuteReader();
+
+            if (dr.Read())
+            {
+                MessageBox.Show("Benutzername und Passwort sind korrekt");
+                if(txtBenutzer.Text.Equals("Mitarbeiter") && txtPasswort.Text.Equals("1"))
+                {
+                    this.Hide();
+                    var form4 = new Form4();                  
+                    form4.ShowDialog();
+                    
+                }
+
+                else if (txtBenutzer.Text.Equals("Admin") && txtPasswort.Text.Equals("123"))
+                {
+                    this.Hide();
+                    var form2 = new Form2();                   
+                    form2.ShowDialog();
+                    
+                }
+
+               
+
+            }
+            //cmd.Connection = conn;
+
+            //  if(conn.State == ConnectionState.Closed)
+            // {
+            //    conn.Open();
+            // z = (int)cmd.ExecuteScalar();
+            //}
+            //   conn.Close();
+
+            //if (z == 1)
+            //{
+            //    MessageBox.Show("Benutzername und Passwort sind korrekt");
+            //    this.Hide();
+            //    Form2 f2 = new Form2();
+            //}
+            //else if(z == 2)
+            //{
+            //  this.Hide();
+            //Form3 f3 = new Form3();
+            //}
+            else
+            {
+                MessageBox.Show("nicht korrekt");
+            }
+
         }
     }
 }

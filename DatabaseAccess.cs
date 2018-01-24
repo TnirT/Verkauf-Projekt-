@@ -16,7 +16,7 @@ namespace Verkauf
 
         public DatabaseAccess()
         {
-            cn = "Provider = Microsoft.ACE.OLEDB.12.0; Data Source = DatenbankVerkauf.accdb";
+            cn = "Provider = Microsoft.ACE.OLEDB.12.0; Data Source = DatenbankVerkauf.mdb";
             // cn = "Provider = Microsoft.JET.OLEDB.4.0; Data Source = Internetradio.mdb";
             conn = new OleDbConnection(cn);
             conn.Open();
@@ -51,7 +51,8 @@ namespace Verkauf
             }
             catch (Exception ex)
             {
-                throw new Exception("Fehler beim Ausführen " + ex.Message);
+             throw new Exception("Fehler beim Ausführen " + ex.Message);
+               
             }
         }
 

@@ -67,12 +67,14 @@
             this.speichernToolStripMenuItem.Name = "speichernToolStripMenuItem";
             this.speichernToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.speichernToolStripMenuItem.Text = "Speichern";
+            this.speichernToolStripMenuItem.Click += new System.EventHandler(this.speichernToolStripMenuItem_Click_1);
             // 
             // beendenToolStripMenuItem
             // 
             this.beendenToolStripMenuItem.Name = "beendenToolStripMenuItem";
             this.beendenToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.beendenToolStripMenuItem.Text = "Beenden";
+            this.beendenToolStripMenuItem.Click += new System.EventHandler(this.beendenToolStripMenuItem_Click_1);
             // 
             // label1
             // 
@@ -156,6 +158,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form3";
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.Form3_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -173,9 +176,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtProduktID;
-        private System.Windows.Forms.TextBox txtPreis;
-        private System.Windows.Forms.TextBox txtBezeichnung;
-        private System.Windows.Forms.TextBox txtMenge;
+        internal System.Windows.Forms.TextBox txtProduktID;
+        internal System.Windows.Forms.TextBox txtPreis;
+        internal System.Windows.Forms.TextBox txtBezeichnung;
+        internal System.Windows.Forms.TextBox txtMenge;
     }
 }

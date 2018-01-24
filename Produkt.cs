@@ -8,7 +8,7 @@ namespace Verkauf
 {
     class Produkt
     {
-        public Produkt(long produktid, long preis, string bezeichnung, long menge)
+        public Produkt(long produktid, double preis, string bezeichnung, long menge)
         {
             ProduktID = produktid;
             Preis = preis;
@@ -16,7 +16,7 @@ namespace Verkauf
             Menge = menge;
         }
         public long ProduktID { get; set; }
-        public long Preis { get; set; }
+        public double Preis { get; set; }
         public string Bezeichnug { get; set; }
         public long Menge { get; set; }
     }

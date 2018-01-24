@@ -23,3 +23,27 @@ D:\4. Klasse\SWE\Programme\Projekt_Verkauf\obj\Debug\Verkauf.Form3.resources
 D:\4. Klasse\SWE\Programme\Projekt_Verkauf\obj\Debug\Verkauf.Form4.resources
 D:\SWE\Git-Projekte\Varkauf1.0\obj\Debug\Verkauf.Form3.resources
 D:\SWE\Git-Projekte\Varkauf1.0\obj\Debug\Verkauf.Form4.resources
+D:\4. Klasse\SWE\Programme\Varkauf1.0\Varkauf1.0\bin\Debug\Verkauf.exe.config
+D:\4. Klasse\SWE\Programme\Varkauf1.0\Varkauf1.0\obj\Debug\Verkauf.exe
+D:\4. Klasse\SWE\Programme\Varkauf1.0\Varkauf1.0\obj\Debug\Verkauf.pdb
+D:\4. Klasse\SWE\Programme\Varkauf1.0\Varkauf1.0\bin\Debug\Verkauf.exe
+D:\4. Klasse\SWE\Programme\Varkauf1.0\Varkauf1.0\bin\Debug\Verkauf.pdb
+D:\4. Klasse\SWE\Programme\Varkauf1.0\Varkauf1.0\obj\Debug\Verkauf.csprojResolveAssemblyReference.cache
+D:\4. Klasse\SWE\Programme\Varkauf1.0\Varkauf1.0\obj\Debug\Verkauf.Form1.resources
+D:\4. Klasse\SWE\Programme\Varkauf1.0\Varkauf1.0\obj\Debug\Verkauf.Form2.resources
+D:\4. Klasse\SWE\Programme\Varkauf1.0\Varkauf1.0\obj\Debug\Verkauf.Form3.resources
+D:\4. Klasse\SWE\Programme\Varkauf1.0\Varkauf1.0\obj\Debug\Verkauf.Form4.resources
+D:\4. Klasse\SWE\Programme\Varkauf1.0\Varkauf1.0\obj\Debug\Verkauf.Properties.Resources.resources
+D:\4. Klasse\SWE\Programme\Varkauf1.0\Varkauf1.0\obj\Debug\Verkauf.csproj.GenerateResource.Cache
+D:\SWE\erstes Projekt\Varkauf1.0 (vom Bene)\Varkauf1.0\Varkauf1.0\bin\Debug\Verkauf.exe.config
+D:\SWE\erstes Projekt\Varkauf1.0 (vom Bene)\Varkauf1.0\Varkauf1.0\obj\Debug\Verkauf.exe
+D:\SWE\erstes Projekt\Varkauf1.0 (vom Bene)\Varkauf1.0\Varkauf1.0\obj\Debug\Verkauf.pdb
+D:\SWE\erstes Projekt\Varkauf1.0 (vom Bene)\Varkauf1.0\Varkauf1.0\bin\Debug\Verkauf.exe
+D:\SWE\erstes Projekt\Varkauf1.0 (vom Bene)\Varkauf1.0\Varkauf1.0\bin\Debug\Verkauf.pdb
+D:\SWE\erstes Projekt\Varkauf1.0 (vom Bene)\Varkauf1.0\Varkauf1.0\obj\Debug\Verkauf.csprojResolveAssemblyReference.cache
+D:\SWE\erstes Projekt\Varkauf1.0 (vom Bene)\Varkauf1.0\Varkauf1.0\obj\Debug\Verkauf.Form1.resources
+D:\SWE\erstes Projekt\Varkauf1.0 (vom Bene)\Varkauf1.0\Varkauf1.0\obj\Debug\Verkauf.Form2.resources
+D:\SWE\erstes Projekt\Varkauf1.0 (vom Bene)\Varkauf1.0\Varkauf1.0\obj\Debug\Verkauf.Form3.resources
+D:\SWE\erstes Projekt\Varkauf1.0 (vom Bene)\Varkauf1.0\Varkauf1.0\obj\Debug\Verkauf.Form4.resources
+D:\SWE\erstes Projekt\Varkauf1.0 (vom Bene)\Varkauf1.0\Varkauf1.0\obj\Debug\Verkauf.Properties.Resources.resources
+D:\SWE\erstes Projekt\Varkauf1.0 (vom Bene)\Varkauf1.0\Varkauf1.0\obj\Debug\Verkauf.csproj.GenerateResource.Cache
